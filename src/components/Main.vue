@@ -1,5 +1,5 @@
 <template>
-    <main class="flex-1 bg-main p-6 text-white overflow-auto">
+    <main class="flex-1 bg-main p-6 text-white overflow-auto scrollbar scrollbar-thumb-white/20">
         <Nav />
         <PlayList />
         <Daily />        

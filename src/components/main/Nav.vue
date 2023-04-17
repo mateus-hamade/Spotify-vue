@@ -2,10 +2,10 @@
     <div class="flex justify-between items-center">
         <div class="flex gap-5">
             <button class="bg-black/40 rounded-full p-1">
-                <ChevronLeft color="#fff" size="24" />
+                <ChevronLeft color="#fff" width="24px"/>
             </button>
             <button class="bg-black/20 rounded-full p-1">
-                <ChevronRight color="#fff" size="24" />
+                <ChevronRight color="#fff" width="24px" />
             </button>
         </div>
         <div class="flex items-center justify-between bg-black/20 rounded-full w-36 p-2">

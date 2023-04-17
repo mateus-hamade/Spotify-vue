@@ -1,6 +1,11 @@
 <template>
     <div class="flex justify-center items-center gap-2">
-        <img src="../../../public/album-8.jpeg" class="w-14">
+        <div class="group cursor-pointer flex ">
+            <div class="w-6 h-6 bg-black/70 absolute invisible group-hover:visible flex justify-center items-center rounded-full ml-6 m-1">
+                <ChevronUp/>
+            </div>
+            <img src="/album-8.jpeg" class="w-14">
+        </div>
         <div class="mr-10">
             <strong class="text-white hover:underline cursor-pointer">Pandora</strong>
             <div class="flex gap-1">
@@ -14,13 +19,14 @@
 </template>
 
 <script lang="ts">
-    import { Heart } from 'lucide-vue-next'
+    import { Heart, ChevronUp } from 'lucide-vue-next'
 
     export default {
         name: 'Music',
 
         components: {
             Heart,
+            ChevronUp
         },
     }
 </script>
