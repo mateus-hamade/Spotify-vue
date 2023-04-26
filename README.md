@@ -14,3 +14,5 @@
 ```
 >> npm run dev
 ```
+### Captura de tela 📷
+![Spotify Clone](public/spotify.png)
